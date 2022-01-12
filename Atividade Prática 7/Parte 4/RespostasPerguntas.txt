@@ -1,0 +1,21 @@
+•	É possível adicionar uma função membro na classe Derived que chama a função read()?
+
+Sim, a herança pública mantém os membros protected da base acessíveis à sua derivada. 
+
+•	Alterando a herança para private, ainda assim é possível adicionar uma função membro 
+    na classe Derived que chama a função read()?
+
+Sim, read() ainda é acessível dentro da classe derivada, mas passa a ser um mebro privado.
+
+•	É possível chamar a função read() a partir de um objeto do tipo Derived?
+
+Não. Pois um objeto do tipo Derived herda read() como uma função membro protected 
+e funções membros protected, nesse contexto, só podem ser acessadas dentro da própria classe derivada.
+
+•	Modifique o código de forma que a classe Derived use herança protected. Crie uma classe Derived2 que 
+seja derivada da classe Derived utilizando herança public. É possível chamar read() a partir de uma função 
+membro da classe Derived2? E o método value()?
+
+Sim, é possível chamar read() a partir de Derived2 pois a função acaba sendo "vista" como um membro protected
+tanto para Derived quanto para Derived2. O método value() também é acessível, sendo "visto" por Derived2 
+como um membro protected devido ao modo de herança entre Derived e Base.

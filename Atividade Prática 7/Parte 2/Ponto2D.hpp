@@ -14,12 +14,10 @@ class Ponto2D{
 
         friend ostream& operator<< (ostream &op, const Ponto2D &p);
         Ponto2D& operator= (const Ponto2D &p);
-      protected:
+
         double get_x() const;
         double get_y() const;
-        
         void set (double nx, double ny);
-        
         
    
 };

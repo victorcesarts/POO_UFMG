@@ -18,7 +18,7 @@ int main()
     p4.set(1,0.3,12);
     cout << p3 << endl;
     cout << p4 << endl;
-
+    p4.get_x();
     p4 = p3;
     cout << p4 << endl;
 
