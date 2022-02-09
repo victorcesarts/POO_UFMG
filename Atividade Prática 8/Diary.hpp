@@ -20,7 +20,6 @@ class Diary{
         int getNumberFriends() const;
         int getNumberAcquaintances() const;
         
-
         void RandomizePerson();
         void addInfos();
         void PrintBirthday();
