@@ -1,5 +1,6 @@
 #ifndef UNIVERSITY_H
 #define UNIVERSITY_H
+#include "Professor.hpp"
 #include "ProfHorista.hpp"
 #include "ProfIntegral.hpp"
 #include <vector>

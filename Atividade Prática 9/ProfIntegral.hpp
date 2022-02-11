@@ -1,7 +1,7 @@
 #ifndef PROFINTE_H
 #define PROFINTE_H
-
 #include "Professor.hpp"
+
 class ProfIntegral : public Professor {
         double salarioMensal;
     public:

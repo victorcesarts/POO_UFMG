@@ -1,14 +1,16 @@
 #ifndef PROFESSOR_H
 #define PROFESSOR_H
 #include <iostream>
+using namespace std;
 
 class Professor{
-        std::string nome;
+    private:
+        string nome;
     public:
         Professor(std::string n);
         virtual ~Professor();
-        std::string getName() const;
-    
+        
+        string getName() const;
         virtual double getSalario() = 0;
         
 };
